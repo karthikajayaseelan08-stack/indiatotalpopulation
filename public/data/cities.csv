@@ -1,0 +1,340 @@
+rank,city,state,population,population_year,source,source_url,scraped_at
+1,Mumbai,Maharashtra,12442373,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+2,Delhi,Delhi,11034555,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+3,Bengaluru,Karnataka,8443675,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+4,Hyderabad,Telangana,6993262,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+5,Chennai,Tamil Nadu,6748026,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+6,Ahmedabad,Gujarat,5577940,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+7,Kolkata,West Bengal,4496694,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+8,Surat,Gujarat,4467797,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+9,Pune,Maharashtra,3124458,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+10,Jaipur,Rajasthan,3046163,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+11,Lucknow,Uttar Pradesh,2817105,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+12,Kanpur,Uttar Pradesh,2765348,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+13,Nagpur,Maharashtra,2405665,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+14,Indore,Madhya Pradesh,1964086,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+15,Thane,Maharashtra,1841488,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+16,Bhopal,Madhya Pradesh,1798218,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+17,Visakhapatnam,Andhra Pradesh,1728128,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+18,Pimpri-Chinchwad,Maharashtra,1727692,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+19,Patna,Bihar,1684222,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+20,Vadodara,Gujarat,1670806,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+21,Ghaziabad,Uttar Pradesh,1648643,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+22,Ludhiana,Punjab,1618879,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+23,Agra,Uttar Pradesh,1585704,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+24,Nashik,Maharashtra,1486053,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+25,Faridabad,Haryana,1414050,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+26,Meerut,Uttar Pradesh,1305429,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+27,Rajkot,Gujarat,1286678,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+28,Kalyan-Dombivli,Maharashtra,1247327,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+29,Vasai-Virar,Maharashtra,1222390,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+30,Varanasi,Uttar Pradesh,1198491,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+31,Srinagar,Jammu and Kashmir,1180570,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+32,Chhatrapati Sambhajinagar,Maharashtra,1175116,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+33,Dhanbad,Jharkhand,1162472,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+34,Amritsar,Punjab,1132383,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+35,Navi Mumbai,Maharashtra,1120547,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+36,Prayagraj,Uttar Pradesh,1112544,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+37,Howrah,West Bengal,1077075,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+38,Ranchi,Jharkhand,1073427,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+39,Jabalpur,Madhya Pradesh,1055525,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+40,Gwalior,Madhya Pradesh,1054420,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+41,Coimbatore,Tamil Nadu,1050721,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+42,Vijayawada,Andhra Pradesh,1034358,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+43,Jodhpur,Rajasthan,1033756,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+44,Madurai,Tamil Nadu,1017865,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+45,Raipur,Chhattisgarh,1010433,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+46,Kota,Rajasthan,1001694,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+47,Chandigarh,Chandigarh,961587,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+48,Guwahati,Assam,957352,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+49,Solapur,Maharashtra,951558,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+50,Hubli–Dharwad,Karnataka,943788,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+51,Bareilly,Uttar Pradesh,903668,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+52,Mysore,Karnataka,893062,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+53,Moradabad,Uttar Pradesh,887871,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+54,Gurgaon,Haryana,876969,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+55,Aligarh,Uttar Pradesh,874408,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+56,Jalandhar,Punjab,862886,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+57,Tiruchirappalli,Tamil Nadu,847387,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+58,Bhubaneswar,Odisha,843402,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+59,Salem,Tamil Nadu,829267,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+60,Mira-Bhayandar,Maharashtra,809378,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+61,Thiruvananthapuram,Kerala,743691,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+62,Bhiwandi,Maharashtra,711329,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+63,Saharanpur,Uttar Pradesh,705478,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+64,Gorakhpur,Uttar Pradesh,673446,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+65,Guntur,Andhra Pradesh,647508,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+66,Amravati,Maharashtra,647057,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+67,Bikaner,Rajasthan,644406,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+68,Noida (town),Uttar Pradesh,637272,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+69,Jamshedpur,Jharkhand,631364,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+70,Bhilai,Chhattisgarh,625700,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+71,Warangal,Telangana,615998,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+72,Cuttack,Odisha,610189,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+73,Firozabad,Uttar Pradesh,604214,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+74,Kochi,Kerala,602046,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+75,Bhavnagar,Gujarat,593368,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+76,Dehradun,Uttarakhand,569578,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+77,Durgapur,West Bengal,566517,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+78,Asansol,West Bengal,563917,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+79,Nanded Waghala,Maharashtra,550439,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+80,Kolhapur,Maharashtra,549236,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+81,Ajmer,Rajasthan,542321,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+82,Kalaburagi,Karnataka,533587,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+83,Loni,Uttar Pradesh,516082,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+84,Ujjain,Madhya Pradesh,515215,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+85,Siliguri,West Bengal,513264,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+86,Ulhasnagar,Maharashtra,506098,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+87,Jhansi,Uttar Pradesh,505693,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+88,Sangli-Miraj &amp; Kupwad,Maharashtra,502793,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+89,Jammu,Jammu and Kashmir,502197,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+90,Nellore,Andhra Pradesh,499575,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+91,Mangalore,Karnataka,488968,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+92,Belgaum,Karnataka,488157,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+93,Jamnagar,Gujarat,479920,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+94,Tirunelveli,Tamil Nadu,473637,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+95,Malegaon,Maharashtra,471312,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+96,Gaya,Bihar,468614,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+97,Ambattur,Tamil Nadu,466205,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+98,Jalgaon,Maharashtra,460228,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+99,Udaipur,Rajasthan,451100,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+100,Maheshtala,West Bengal,448317,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+101,Tiruppur,Tamil Nadu,444352,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+102,Davanagere,Karnataka,434971,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+103,Kozhikode,Kerala,431560,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+104,Kurnool,Andhra Pradesh,430214,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+105,Akola,Maharashtra,425817,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+106,Rajpur Sonarpur,West Bengal,424368,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+107,Bokaro,Jharkhand,414820,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+108,Bellary,Karnataka,410445,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+109,Patiala,Punjab,406192,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+110,South Dumdum,West Bengal,403316,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+111,Gopalpur,West Bengal,400146,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+112,Agartala,Tripura,400004,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+113,Bhagalpur,Bihar,398138,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+114,Muzaffarnagar,Uttar Pradesh,392768,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+115,Bhatpara,West Bengal,383762,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+116,Latur,Maharashtra,382940,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+117,Panihati,West Bengal,377347,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+118,Dhule,Maharashtra,375559,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+119,Rohtak,Haryana,374292,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+120,Korba,Chhattisgarh,363390,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+121,Bhilwara,Rajasthan,359483,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+122,Berhampur,Odisha,356598,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+123,Muzaffarpur,Bihar,354462,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+124,Ahilyanagar,Maharashtra,350859,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+125,Mathura,Uttar Pradesh,349909,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+126,Kollam,Kerala,348657,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+127,Avadi,Tamil Nadu,345996,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+128,Kadapa,Andhra Pradesh,343054,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+129,Rajahmundry,Andhra Pradesh,341831,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+130,Bilaspur,Chhattisgarh,331030,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+131,Kamarhati,West Bengal,330211,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+132,Shahjahanpur,Uttar Pradesh,329736,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+133,Bijapur,Karnataka,327427,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+134,Rampur,Uttar Pradesh,325313,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+135,Shivamogga,Karnataka,322650,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+136,Chandrapur,Maharashtra,320379,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+137,Junagadh,Gujarat,319462,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+138,Thrissur,Kerala,315957,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+139,Alwar,Rajasthan,315379,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+140,Bardhaman,West Bengal,314265,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+141,Kulti,West Bengal,313809,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+142,Kakinada,Andhra Pradesh,312538,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+143,Nizamabad,Telangana,311152,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+144,Parbhani,Maharashtra,307170,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+145,Tumkur,Karnataka,302143,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+146,Hisar,Haryana,301383,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+147,Ozhukarai,Puducherry,300104,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+148,Bihar Sharif,Bihar,297268,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+149,Darbhanga,Bihar,296039,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+150,Panipat,Haryana,294292,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+151,Aizawl,Mizoram,293416,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+152,Bally,West Bengal,293373,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+153,Dewas,Madhya Pradesh,289550,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+154,Tirupati,Andhra Pradesh,287482,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+155,Ichalkaranji,Maharashtra,287353,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+156,Karnal,Haryana,286827,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+157,Bathinda,Punjab,285788,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+158,Jalna,Maharashtra,285577,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+159,Kirari Suleman Nagar,Delhi,283211,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+160,Purnia,Bihar,282248,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+161,Satna,Madhya Pradesh,280222,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+162,Maunath Bhanjan,Uttar Pradesh,278745,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+163,Barasat,West Bengal,278435,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+164,Sonipat,Haryana,278149,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+165,Farrukhabad,Uttar Pradesh,276581,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+166,Sagar,Madhya Pradesh,273296,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+167,Rourkela,Odisha,272721,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+168,Durg,Chhattisgarh,268806,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+169,Imphal,Manipur,268243,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+170,Ratlam,Madhya Pradesh,264914,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+171,Hapur,Uttar Pradesh,262983,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+172,Arrah,Bihar,261430,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+173,Karimnagar,Telangana,261185,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+174,Anantapur,Andhra Pradesh,261004,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+175,New Delhi,Delhi,257803,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+176,Etawah,Uttar Pradesh,256838,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+177,Ambarnath,Maharashtra,253475,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+178,Bharatpur,Rajasthan,252342,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+179,Begusarai,Bihar,252008,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+180,Tiruvottiyur,Tamil Nadu,249446,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+181,North Dumdum,West Bengal,249142,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+182,Gandhidham,Gujarat,247992,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+183,Baranagar,West Bengal,245213,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+184,Puducherry,Puducherry,244377,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+185,Thoothukudi,Tamil Nadu,237830,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+186,Sikar,Rajasthan,237532,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+187,Rewa,Madhya Pradesh,235654,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+188,Mirzapur,Uttar Pradesh,234871,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+189,Raichur,Karnataka,234073,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+190,Pali,Rajasthan,230075,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+191,Ramagundam,Telangana,229644,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+192,Haridwar,Uttarakhand,228832,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+193,Vijayanagaram,Andhra Pradesh,228025,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+194,Katihar,Bihar,226261,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+195,Nagercoil,Tamil Nadu,224849,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+196,Sri Ganganagar,Rajasthan,224532,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+197,Karawal Nagar,Delhi,224281,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+198,Mango,Jharkhand,223805,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+199,Thanjavur,Tamil Nadu,222943,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+200,Bulandshahr,Uttar Pradesh,222519,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+201,Uluberia,West Bengal,222240,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+202,Murwara,Madhya Pradesh,221883,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+203,Sambhal,Uttar Pradesh,220813,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+204,Singrauli,Madhya Pradesh,220257,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+205,Nadiad,Gujarat,218095,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+206,Secunderabad,Telangana,217910,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+207,Naihati,West Bengal,217900,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+208,Yamunanagar,Haryana,216677,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+209,Bidhan Nagar,West Bengal,215514,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+210,Pallavaram,Tamil Nadu,215417,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+211,Bidar,Karnataka,214373,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+212,Panchkula,Haryana,211355,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+213,Burhanpur,Madhya Pradesh,210886,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+214,Raurkela Industrial Township,Odisha,210317,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+215,Kharagpur,West Bengal,207604,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+216,Dindigul,Tamil Nadu,207327,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+217,Gandhinagar,Gujarat,206167,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+218,Hospet,Karnataka,206167,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+219,Nangloi Jat,Delhi,205596,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+220,Malda,West Bengal,205521,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+221,Ongole,Andhra Pradesh,204746,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+222,Eluru,Andhra Pradesh,203780,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+223,Deoghar,Jharkhand,203123,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+224,Chapra,Bihar,202352,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+225,Haldia,West Bengal,200827,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+226,Khandwa,Madhya Pradesh,200738,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+227,Puri,Odisha,200564,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+228,Nandyal,Andhra Pradesh,200516,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+229,Morena,Madhya Pradesh,200482,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+230,Amroha,Uttar Pradesh,198471,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+231,Anand,Gujarat,198282,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+232,Bhind,Madhya Pradesh,197585,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+233,Bhalswa Jahangir Pur,Delhi,197148,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+234,Madhyamgram,West Bengal,196127,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+235,Bhiwani,Haryana,196057,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+236,Panvel,Maharashtra,195373,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+237,Baharampur,West Bengal,195223,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+238,Ambala,Haryana,195153,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+239,Morvi,Gujarat,194947,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+240,Fatehpur,Uttar Pradesh,193193,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+241,Raebareli,Uttar Pradesh,191316,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+242,Khora,Uttar Pradesh,190005,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+243,Chittoor,Andhra Pradesh,189332,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+244,Bhusawal,Maharashtra,187421,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+245,Orai,Uttar Pradesh,187137,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+246,Bahraich,Uttar Pradesh,186223,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+247,Vellore,Tamil Nadu,185803,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+248,Veraval,Gujarat,185797,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+249,Mahesana,Gujarat,184991,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+250,Khammam,Telangana,184210,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+251,Sambalpur,Odisha,184000,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+252,Raiganj,West Bengal,183612,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+253,Sirsa,Haryana,182534,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+254,Danapur,Bihar,182429,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+255,Serampore,West Bengal,181842,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+256,Sultan Pur Majra,Delhi,181554,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+257,Guna,Madhya Pradesh,180935,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+258,Jaunpur,Uttar Pradesh,180362,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+259,Shivpuri,Madhya Pradesh,179977,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+260,Surendranagar Dudhrej,Gujarat,177851,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+261,Unnao,Uttar Pradesh,177658,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+262,Hugli-Chuchura,West Bengal,177259,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+263,Sitapur,Uttar Pradesh,177234,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+264,Hastsal,Delhi,176877,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+265,Tambaram,Tamil Nadu,174787,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+266,Adityapur,Jharkhand,174355,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+267,Badlapur,Maharashtra,174226,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+268,Alappuzha,Kerala,174176,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+269,Cuddalore,Tamil Nadu,173636,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+270,Silchar,Assam,172830,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+271,Gadag-Betageri,Karnataka,172612,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+272,Bahadurgarh,Haryana,170767,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+273,Machilipatnam,Andhra Pradesh,169892,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+274,Shimla,Himachal Pradesh,169578,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+275,Medinipur,West Bengal,169264,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+276,Deoli,Delhi,169122,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+277,Bharuch,Gujarat,169007,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+278,Hoshiarpur,Punjab,168653,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+279,Jind,Haryana,167592,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+280,Chandannagar,West Bengal,166867,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+281,Adoni,Andhra Pradesh,166344,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+282,Tonk,Rajasthan,165294,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+283,Faizabad,Uttar Pradesh,165228,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+284,Tenali,Andhra Pradesh,164937,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+285,Alandur,Tamil Nadu,164430,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+286,Kancheepuram,Tamil Nadu,164384,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+287,Vapi,Gujarat,163630,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+288,Rajnandgaon,Chhattisgarh,163114,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+289,Proddatur,Andhra Pradesh,162717,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+290,Navsari,Gujarat,160941,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+291,Budaun,Uttar Pradesh,159285,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+292,Uttarpara Kotrung,West Bengal,159147,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+293,Mahbubnagar,Andhra Pradesh,157733,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+294,Erode,Tamil Nadu,157101,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+295,Batala,Punjab,156619,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+296,Saharsa,Bihar,156540,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+297,Haldwani-Kathgodam,Uttarakhand,156078,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+298,Vidisha,Madhya Pradesh,155951,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+299,Thanesar,Haryana,155152,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+300,Kishangarh,Rajasthan,154886,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+301,Hindupur,Andhra Pradesh,151835,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+302,Sasaram,Bihar,147396,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+303,Hajipur,Bihar,147126,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+304,Beed,Maharashtra,146709,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+305,Bhimavaram,Andhra Pradesh,142280,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+306,Dehri,Bihar,137068,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+307,Madanapalle,Andhra Pradesh,135669,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+308,Siwan,Bihar,134458,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+309,Bettiah,Bihar,132896,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+310,Gondia,Maharashtra,132813,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+311,Guntakal,Andhra Pradesh,126270,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+312,Srikakulam,Andhra Pradesh,125939,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+313,Motihari,Bihar,125183,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+314,Dharmavaram,Andhra Pradesh,121874,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+315,Satara,Maharashtra,120195,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+316,Barshi,Maharashtra,118722,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+317,Gudivada,Andhra Pradesh,118167,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+318,Yavatmal,Maharashtra,116551,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+319,Narasaraopet,Andhra Pradesh,116250,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+320,Bagaha,Bihar,113012,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+321,Achalpur,Maharashtra,112311,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+322,Osmanabad,Maharashtra,111825,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+323,Nandurbar,Maharashtra,111037,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+324,Miryalaguda,Telangana,109891,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+325,Tadipatri,Andhra Pradesh,108171,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+326,Kishanganj,Bihar,107076,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+327,Karaikudi,Tamil Nadu,106714,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+328,Wardha,Maharashtra,106444,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+329,Suryapet,Telangana,105250,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+330,Jamalpur,Bihar,105221,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+331,Kavali,Andhra Pradesh,104000,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+332,Tadepalligudem,Andhra Pradesh,103906,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+333,Udgir,Maharashtra,103550,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+334,Amaravati,Andhra Pradesh,103000,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+335,Buxar,Bihar,102591,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+336,Jehanabad,Bihar,102456,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+337,Greater Noida,Uttar Pradesh,102054,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+338,Hinganghat,Maharashtra,101805,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z
+339,Aurangabad,Bihar,101520,2011,Wikipedia (Census of India 2011),https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,2026-09-22T16:54:17.973Z

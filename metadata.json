@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "India Population",
+  "description": "Comprehensive India Population demographic intelligence platform covering all 36 States & UTs, 788 Districts, and 339 Cities with interactive 2026 growth simulation, comparative analytics, and state profiles.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}500 Internal Error | Indian Cities Analytics{% endblock %}
+
+{% block content %}
+<div class="container py-5 text-center" style="max-width: 600px;">
+  <div class="display-1 fw-bold text-danger mb-3">500</div>
+  <h2 class="fw-bold text-dark mb-2">Internal Service Exception</h2>
+  <p class="text-secondary mb-4">An unexpected condition occurred while querying the population analytics engine. Sensitive diagnostic details have been logged safely on the server.</p>
+  <a href="/" class="btn btn-outline-secondary px-4">Back to Dashboard</a>
+</div>
+{% endblock %}

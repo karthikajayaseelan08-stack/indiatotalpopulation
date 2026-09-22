@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+
+{% block title %}About & Methodology | Indian Cities Population Analytics System{% endblock %}
+
+{% block content %}
+<div class="container-fluid px-lg-4" style="max-width: 1100px;">
+  <div class="mb-4">
+    <h1 class="h2 fw-bold text-dark mb-1" id="aboutHeading">About & Technical Architecture</h1>
+    <p class="text-secondary mb-0">Design, data provenance, multithreaded processing, and analytical methodology</p>
+  </div>
+
+  <!-- Section 1: Project Purpose & Overview -->
+  <div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-body p-4">
+      <h4 class="fw-bold text-dark mb-3">1. Project Purpose</h4>
+      <p class="text-secondary">
+        The <strong>Indian Cities Population Analytics System</strong> is a production-level data engineering and visualization application. It provides an automated, resilient pipeline that extracts municipal population data for Indian urban centers from public sources, cleanses and standardizes the records using concurrent thread execution, stores the normalized data in a relational database with strict constraints, and surfaces factual demographic analytics via REST APIs and dynamic Chart.js dashboards.
+      </p>
+    </div>
+  </div>
+
+  <!-- Section 2: Data Provenance & Crucial Limitations (Section 24 & 36) -->
+  <div class="card border-0 shadow-sm rounded-3 mb-4 border-start border-4 border-warning">
+    <div class="card-body p-4">
+      <h4 class="fw-bold text-dark mb-3">2. Data Provenance & Census Limitations</h4>
+      <div class="alert alert-warning mb-3">
+        <strong>Important Data Integrity Note:</strong> The population figures presented in this application are derived from the official <strong>Census of India 2011</strong> (conducted by the Office of the Registrar General and Census Commissioner of India). They represent legal <em>municipal corporation boundaries</em> at the time of the 2011 decennial census, NOT current metropolitan agglomeration figures or present-day estimates.
+      </div>
+      <ul class="text-secondary mb-0">
+        <li><strong>Historical Baseline:</strong> The decennial Census of 2021 was postponed; therefore, official statutory city-level counts reflect the 2011 survey. We strictly refrain from inventing or interpolating synthetic "current" estimates.</li>
+        <li><strong>Municipal vs. Metropolitan (Agglomeration):</strong> Figures reflect the core civic municipal limits (e.g., Municipal Corporation of Greater Mumbai), which differs from wider Urban Agglomerations (e.g., Mumbai Metropolitan Region).</li>
+        <li><strong>Source URL:</strong> <a href="https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population" target="_blank" rel="noopener noreferrer">Wikipedia: List of cities in India by population</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 3: Architecture Diagram & Tech Stack -->
+  <div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-body p-4">
+      <h4 class="fw-bold text-dark mb-3">3. Layered Architectural Pipeline</h4>
+      <pre class="bg-dark text-light p-3 rounded-3 font-monospace small mb-4">
+Data Source (Wikipedia Public Table)
+      │
+      ▼
+Scraper Service (requests + BeautifulSoup4 semantic table selection)
+      │
+      ▼
+Raw HTML & Records Audit (data/raw/wikipedia_cities_raw.html)
+      │
+      ▼
+Cleaner & Validator (strips citations, normalizes numbers, bounds checks)
+      │
+      ▼
+Multithreaded Processor (concurrent.futures.ThreadPoolExecutor with MAX_WORKERS)
+      │
+      ├──────────────────────────┐
+      ▼                          ▼
+Atomic CSV Storage         Relational Repository (MySQL 8+ / SQLite)
+(data/cities.csv)          (Indexed queries, deduplication, safe upserts)
+                                 │
+                                 ▼
+                           Analytics Engine (SQL aggregates, medians, tiers)
+                                 │
+                                 ▼
+                           REST API Layer (/api/health, /api/cities, /api/compare)
+                                 │
+                                 ▼
+                           Interactive Web Dashboard (Chart.js + Responsive UI)
+      </pre>
+
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="p-3 bg-light rounded-3 h-100">
+            <h6 class="fw-bold text-dark mb-2">Backend & Data</h6>
+            <ul class="small text-secondary mb-0 ps-3">
+              <li>Python 3.10+ / Flask</li>
+              <li>requests & BeautifulSoup4</li>
+              <li>SQLAlchemy ORM + MySQL 8 / SQLite</li>
+              <li>concurrent.futures ThreadPool</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-3 bg-light rounded-3 h-100">
+            <h6 class="fw-bold text-dark mb-2">Multithreading</h6>
+            <ul class="small text-secondary mb-0 ps-3">
+              <li>Configurable MAX_WORKERS</li>
+              <li>Safe immutable worker dispatch</li>
+              <li>Zero shared database connection across threads</li>
+              <li>Isolated row normalization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-3 bg-light rounded-3 h-100">
+            <h6 class="fw-bold text-dark mb-2">Frontend & Charts</h6>
+            <ul class="small text-secondary mb-0 ps-3">
+              <li>Chart.js 4.4+</li>
+              <li>Bootstrap 5.3 + Custom CSS</li>
+              <li>React + Tailwind (Cloud preview)</li>
+              <li>Fetch API data bindings</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4: Multithreading Rationale (Section 13) -->
+  <div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-body p-4">
+      <h4 class="fw-bold text-dark mb-3">4. Multithreading Rationale & Thread Safety</h4>
+      <p class="text-secondary">
+        The pipeline employs <code>concurrent.futures.ThreadPoolExecutor</code> to accelerate processing of scraped records:
+      </p>
+      <ul class="text-secondary">
+        <li><strong>What is Parallelized:</strong> Individual row text cleaning, regex normalization of population numbers, symbol stripping, and preliminary format validation.</li>
+        <li><strong>Why Threading:</strong> In Python, I/O-bound tasks and mixed string operations benefit from thread pool concurrency. Workers execute independently without mutating shared data structures.</li>
+        <li><strong>Thread Safety:</strong> Worker functions are strictly pure functions—they accept an isolated row tuple and return a new dictionary. Database connections are NOT shared across threads; database writes occur in controlled batches on dedicated session scopes.</li>
+        <li><strong>Multiprocessing vs. Multithreading:</strong> While threading suffices for thousands of text rows due to minimal CPU overhead, larger multi-million row datasets would transition to <code>ProcessPoolExecutor</code> to circumvent Python's GIL (Global Interpreter Lock).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 5: API Documentation (Section 17) -->
+  <div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-body p-4">
+      <h4 class="fw-bold text-dark mb-3">5. REST API Documentation</h4>
+      <div class="table-responsive">
+        <table class="table table-sm table-bordered align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Method</th>
+              <th>Endpoint</th>
+              <th>Description</th>
+              <th>Example Query</th>
+            </tr>
+          </thead>
+          <tbody class="small font-monospace">
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/health</td>
+              <td class="font-sans">System health and database status</td>
+              <td>/api/health</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/cities</td>
+              <td class="font-sans">Paginated list with search, filter, and sorting</td>
+              <td>/api/cities?search=mumbai&page=1&limit=20</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/cities/&lt;id&gt;</td>
+              <td class="font-sans">Single city details by primary key ID</td>
+              <td>/api/cities/1</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/rankings/top</td>
+              <td class="font-sans">Top N cities by population</td>
+              <td>/api/rankings/top?limit=10</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/analytics/summary</td>
+              <td class="font-sans">Dataset summary totals, averages, median, extrema</td>
+              <td>/api/analytics/summary</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/analytics/states</td>
+              <td class="font-sans">State-wise aggregated demographic breakdown</td>
+              <td>/api/analytics/states</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-success">GET</span></td>
+              <td>/api/compare</td>
+              <td class="font-sans">Compare two cities dynamically</td>
+              <td>/api/compare?city1=Mumbai&city2=Delhi</td>
+            </tr>
+            <tr>
+              <td><span class="badge bg-primary">POST</span></td>
+              <td>/api/pipeline/run</td>
+              <td class="font-sans">Trigger data refresh with worker configuration</td>
+              <td>Payload: {"max_workers": 4}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard | Indian Cities Population Analytics System{% endblock %}
+
+{% block content %}
+<div class="container-fluid px-lg-4">
+  <!-- Header & Actions -->
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+    <div>
+      <h1 class="h2 fw-bold text-dark mb-1" id="dashboardTitle">Indian Cities Population Analytics System</h1>
+      <p class="text-secondary mb-0">Population ranking, comparison, and state-wise analytics</p>
+    </div>
+    <div class="d-flex align-items-center gap-2">
+      <div class="input-group input-group-sm">
+        <label class="input-group-text bg-white" for="workerCountSelect">Workers</label>
+        <select class="form-select" id="workerCountSelect" style="width: auto;">
+          <option value="2">2 Threads</option>
+          <option value="4" selected>4 Threads</option>
+          <option value="8">8 Threads</option>
+        </select>
+      </div>
+      <button class="btn btn-primary btn-sm d-flex align-items-center gap-2" id="refreshBtn">
+        <span class="spinner-border spinner-border-sm d-none" id="refreshSpinner" role="status" aria-hidden="true"></span>
+        <span id="refreshBtnText">Refresh Pipeline</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Telemetry / Status Alert -->
+  <div id="pipelineAlert" class="alert alert-info alert-dismissible fade d-none" role="alert">
+    <div id="pipelineAlertMessage"></div>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <!-- Summary Metric Cards (Section 21) -->
+  <div class="row g-3 mb-4" id="summaryCardsContainer">
+    <div class="col-12 col-sm-6 col-xl-3">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-body p-3">
+          <span class="text-uppercase fw-semibold text-secondary small">Total Cities</span>
+          <h3 class="fw-bold text-dark mt-2 mb-0" id="cardTotalCities">—</h3>
+          <p class="text-muted small mt-1 mb-0">Cleaned & validated dataset</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-body p-3">
+          <span class="text-uppercase fw-semibold text-secondary small">Total Population</span>
+          <h3 class="fw-bold text-dark mt-2 mb-0" id="cardTotalPopulation">—</h3>
+          <p class="text-muted small mt-1 mb-0">Combined urban population</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-body p-3">
+          <span class="text-uppercase fw-semibold text-secondary small">Average Population</span>
+          <h3 class="fw-bold text-dark mt-2 mb-0" id="cardAvgPopulation">—</h3>
+          <p class="text-muted small mt-1 mb-0">Median: <span id="cardMedianPopulation">—</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-body p-3">
+          <span class="text-uppercase fw-semibold text-secondary small">Highest Population City</span>
+          <h3 class="fw-bold text-dark mt-2 mb-0" id="cardHighestCity">—</h3>
+          <p class="text-muted small mt-1 mb-0" id="cardHighestCityState">—</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 1: Top Cities & Tier Distribution -->
+  <div class="row g-4 mb-4">
+    <!-- Top 10 / 20 Horizontal Bar Chart -->
+    <div class="col-12 col-lg-7">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-header bg-white border-0 pt-3 px-3 d-flex justify-content-between align-items-center">
+          <h5 class="fw-bold text-dark mb-0">Top Ranked Cities by Population</h5>
+          <div class="btn-group btn-group-sm" role="group">
+            <button type="button" class="btn btn-outline-secondary active" id="btnTop10">Top 10</button>
+            <button type="button" class="btn btn-outline-secondary" id="btnTop20">Top 20</button>
+          </div>
+        </div>
+        <div class="card-body p-3">
+          <div class="chart-container" style="position: relative; height: 380px;">
+            <canvas id="topCitiesChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Urban Tier Distribution Breakdown -->
+    <div class="col-12 col-lg-5">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-header bg-white border-0 pt-3 px-3">
+          <h5 class="fw-bold text-dark mb-0">Urban Population Tiers</h5>
+        </div>
+        <div class="card-body p-3">
+          <div class="chart-container" style="position: relative; height: 380px;">
+            <canvas id="tierChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 2: State-wise Population & City Count -->
+  <div class="row g-4 mb-4">
+    <div class="col-12 col-lg-6">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-header bg-white border-0 pt-3 px-3">
+          <h5 class="fw-bold text-dark mb-0">Total Urban Population by State</h5>
+        </div>
+        <div class="card-body p-3">
+          <div class="chart-container" style="position: relative; height: 360px;">
+            <canvas id="statePopulationChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6">
+      <div class="card border-0 shadow-sm rounded-3 h-100">
+        <div class="card-header bg-white border-0 pt-3 px-3">
+          <h5 class="fw-bold text-dark mb-0">Number of Major Cities by State</h5>
+        </div>
+        <div class="card-body p-3">
+          <div class="chart-container" style="position: relative; height: 360px;">
+            <canvas id="stateCityCountChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- State Analytics Table Overview -->
+  <div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-0 pt-3 px-3 d-flex justify-content-between align-items-center">
+      <h5 class="fw-bold text-dark mb-0">State-wise Summary Breakdown</h5>
+      <span class="badge bg-light text-secondary border">Real-time DB Aggregates</span>
+    </div>
+    <div class="card-body p-0">
+      <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0" id="statesTable">
+          <thead class="table-light">
+            <tr>
+              <th scope="col" class="ps-3">State / Union Territory</th>
+              <th scope="col">City Count</th>
+              <th scope="col">Total Population</th>
+              <th scope="col">Average City Population</th>
+              <th scope="col" class="pe-3">Highest Population City</th>
+            </tr>
+          </thead>
+          <tbody id="statesTableBody">
+            <tr><td colspan="5" class="text-center py-4 text-muted">Loading state analytics...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/dashboard.js"></script>
+{% endblock %}
